@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: grid;
+  
+    grid-template-rows: 75px 300px auto auto auto 30px;
+
+  }
+
+  .container2{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    padding-top: 50px;
+  }
+  
+  .header {
+    background-color: #b693a2;
+    display: grid;
+    grid-template-columns: 200px minmax(400px,1fr);
+    grid-row: 100px;
+    place-items: end;
+    font-size: 1.2rem;
+    padding: 20px 50px 20px 20px
+  }
+
+
+  #name{
+    color: white;
+  }
+
+  .navigation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    place-items: center;
+    padding-bottom: 5px;
+  }
+  
+  .navigation a{
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    color: #b693a2;
+    text-decoration: none;
+  }
+
+  .title {
+    background-color: #b693a2;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    padding-top: 50px;
+    
+    border-bottom: solid;
+    border-color: #5e3948;
+  }
+
+  #keen,
+  #ready{
+      color: #5e3948;
+  }
+
+  .title p{
+      line-height: 2;
+  }
+
+  .leading{
+      padding-bottom: 20px;
+  }
+
+  h1{
+    padding-bottom: 20px;
+  }
+  
+  #about-me,
+  #experience {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    padding-top: 50px;
+    line-height: 2rem;
+    border-bottom: solid;
+    border-color: #5e3948;
+  }
+
+  #about-me h2,
+  #experience h2{
+    padding: 5px 5px 20px 5px;
+    text-align: center;
+  }
+
+  #about-me h3,
+  #experience h3,
+  #experience p{
+    padding: 0px 0px 20px 0px;
+  }
+
+  .me{
+      padding-bottom: 70px;
+  }
+
+  #portfolio {
+    background-color: #fdd8e8;
+    padding: 50px;
+    line-height: 2rem;
+    border-bottom: solid;
+    border-color: #5e3948;
+  }
+
+  #portfolio h2{
+    padding: 5px 5px 50px 5px;
+    text-align: center;
+  }
+
+  .portex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .example{
+    background-color: white;
+    padding: 25px;
+    border-style: solid;
+    border-color: #5e3948;
+  }
+  
+  .example h3{
+    padding-bottom: 25px;
+  }
+
+  .example p{
+      margin-bottom: 35px;
+  }
+
+  .example a{
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: #b693a2;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer {
+    background-color: #b693a2;
+    place-items: center;
+  }
